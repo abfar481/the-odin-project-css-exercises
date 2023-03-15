@@ -10,6 +10,10 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* Answer */
+  display: flex;
+  justify-content: center;
+  padding: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +27,23 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* Answer */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info {
+  width: 200px;
 }
