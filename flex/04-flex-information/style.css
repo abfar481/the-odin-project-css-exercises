@@ -1,5 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* Correct answer */
+  text-align: center;
 }
 
 img {
@@ -10,10 +12,13 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  /* Answer */
+  /* Correct answer */
+  margin-bottom: 32px;
+  /* Answer 
   display: flex;
   justify-content: center;
   padding: 32px;
+  */
 }
 
 /* do not edit this footer */
@@ -32,17 +37,19 @@ img {
 /* Answer */
 .container {
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
   gap: 52px;
 }
 
+/*
 .text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+*/
 
 .info {
   width: 200px;
